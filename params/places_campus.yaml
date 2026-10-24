@@ -1,0 +1,7 @@
+home: {x: 0.0, y: 0.0, yaw: 0.0000, aliases: ['base', 'parking']}
+admin: {x: 1.8, y: 3.75, yaw: 3.1416, aliases: ['admin block', 'administration', 'office']}
+auditorium: {x: 4.25, y: 1.7, yaw: 1.5708, aliases: ['college auditorium', 'seminar hall', 'main hall']}
+library: {x: 9.5, y: 1.2, yaw: 1.5708, aliases: ['central library', 'books']}
+cafeteria: {x: 4.75, y: -1.7, yaw: -1.5708, aliases: ['canteen', 'food court']}
+department: {x: 9.75, y: -1.2, yaw: -1.5708, aliases: ['dept', 'cs department']}
+hostel: {x: 1.2, y: -1.7, yaw: -1.5708, aliases: ['dormitory', 'residence']}

@@ -1,0 +1,98 @@
+material Label/admin
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture admin.png
+   }
+  }
+ }
+}
+material Label/auditorium
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture auditorium.png
+   }
+  }
+ }
+}
+material Label/library
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture library.png
+   }
+  }
+ }
+}
+material Label/hostel
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture hostel.png
+   }
+  }
+ }
+}
+material Label/cafeteria
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture cafeteria.png
+   }
+  }
+ }
+}
+material Label/department
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture department.png
+   }
+  }
+ }
+}
+material Label/home
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   texture_unit
+   {
+    texture home.png
+   }
+  }
+ }
+}
