@@ -1,9 +1,14 @@
-# AgileX Limo Campus Guide Robot (ROS 2 Humble, simulation)
+﻿# AgileX Limo Campus Guide Robot (ROS 2 Humble, simulation)
 
 A simulated AgileX Limo that maps a mini-campus by itself (SLAM Toolbox + explore_lite), then guides a
 visitor to a destination chosen by button, typed text or voice (offline faster-whisper), waits, and returns home.
 
+**Demo video (simulation):** https://youtu.be/POyMhajQUQ0
+
+[![Simulation demo video](https://img.youtube.com/vi/POyMhajQUQ0/hqdefault.jpg)](https://youtu.be/POyMhajQUQ0)
+
 **Real-robot version (AgileX Limo Pro, ROS 2 Foxy):** https://github.com/mmuzaffark/limo-pro-lab-guide-robot
+
 **Demo video (real robot):** https://youtu.be/WnRJRKCcmM4
 
 This repository is a fork of [Kazimbalti/limo_ros2](https://github.com/Kazimbalti/limo_ros2) (original README: `README_upstream.md`).
@@ -76,8 +81,8 @@ Switch with: `sed -i 's#nav2_campus_rpp[a-z_]*\.yaml#<file>#' ~/demo_slam.sh`
 Limitation: simulated odometry equals ground truth, so drift is not tested here (see the real-robot repo).
 
 ## Layout
-`guide/` guide logic and voice front-end · `tools/` launch, test and GUI scripts · `params/` Nav2, SLAM,
-explore, places · `maps/` exact and SLAM maps · `worlds_local/` generated world · `labels/` roof labels ·
-`clips/` voice commands · `docs/` screenshots · `src/` Limo packages (forked) · `THIRD_PARTY.md` external packages
+`guide/` guide logic and voice front-end Â· `tools/` launch, test and GUI scripts Â· `params/` Nav2, SLAM,
+explore, places Â· `maps/` exact and SLAM maps Â· `worlds_local/` generated world Â· `labels/` roof labels Â·
+`clips/` voice commands Â· `docs/` screenshots Â· `src/` Limo packages (forked) Â· `THIRD_PARTY.md` external packages
 
 Note: roof-label textures use an absolute path (`/home/muzaffar/limo_ws/labels`); rerun `add_labels.py` after cloning.
