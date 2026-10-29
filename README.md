@@ -27,3 +27,7 @@ places · maps/ exact and SLAM maps · worlds_local/ generated world · clips/ v
 
 Note: roof-label textures are referenced by absolute path (/home/muzaffar/limo_ws/labels); rerun
 add_labels.py after cloning to another user account.
+
+## Real-robot implementation
+The AgileX Limo Pro lab implementation (Foxy, Nav2, guide manager, Windows GUI, logs and results) is in https://github.com/mmuzaffark/limo-pro-lab-guide-robot
+
