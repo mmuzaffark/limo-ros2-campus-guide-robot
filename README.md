@@ -89,5 +89,5 @@ Note: roof-label textures use an absolute path (`/home/muzaffar/limo_ws/labels`)
 
 ## Presentation
 
-- Slides: [PowerPoint](docs/Campus_Guide_Final.pptx) | [PDF](docs/Campus_Guide_Final.pdf)
+- Slides: [PDF](docs/Campus_Guide_Final.pdf)
 
