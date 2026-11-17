@@ -86,3 +86,8 @@ explore, places Â· `maps/` exact and SLAM maps Â· `worlds_local/` generated 
 `clips/` voice commands Â· `docs/` screenshots Â· `src/` Limo packages (forked) Â· `THIRD_PARTY.md` external packages
 
 Note: roof-label textures use an absolute path (`/home/muzaffar/limo_ws/labels`); rerun `add_labels.py` after cloning.
+
+## Presentation
+
+- Slides: [PowerPoint](docs/Campus_Guide_Final.pptx) | [PDF](docs/Campus_Guide_Final.pdf)
+
